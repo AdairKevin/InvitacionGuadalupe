@@ -246,7 +246,7 @@ td span {
     transform: translateX(-500px);
   }
 
-  65% {
+  50% {
     transform: translateX(0);
   }
 }
