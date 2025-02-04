@@ -11,7 +11,7 @@ html {
   position: relative;
   width: 100%;
   height: 100dvh;
-  background-color: #fee5ff;
+  background-color: #f5e0a5;
   display: flex;
   cursor: pointer;
   background-size: 10px 10px;
@@ -151,7 +151,7 @@ html {
   align-items: center;
   aspect-ratio: 1/1;
 
-  border: 4px solid #ff45a8; /* Color rosa fuerte */
+  border: 4px solid #f2ce16; /* Color rosa fuerte */
 
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.411);
   background-color: white;
@@ -204,7 +204,7 @@ td .label {
   font-size: 20px;
   font-weight: bold;
   font-family: "Italiana", serif;
-  color: #bc1ab4;
+  color: #f2b705;
   margin-top: 10px; /* Espacio entre el número y el texto */
 }
 
@@ -213,7 +213,7 @@ td span {
   display: inline-block;
   min-width: 60px; /* Ancho mínimo para asegurar que los números no se amontonen */
   padding: 10px;
-  background-color: #bc1ab4; /* Color de fondo para los números */
+  background-color: #f2cb05; /* Color de fondo para los números */
   border-radius: 8px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -267,15 +267,15 @@ td span {
 
 /* Estilos para las tarjetas */
 .card1 {
-  background-color: #ff0080;
+  background-color: #732c02;
   border-radius: 5px; /* Bordes redondeados */
-  box-shadow: 0 10px 30px rgba(255, 0, 128, 0.358); /* Sombra rosa */
+  box-shadow: 0 10px 30px rgba(255, 217, 0, 0.358); /* Sombra rosa */
   overflow: hidden;
   width: 100%; /* Ocupa todo el ancho disponible */
 }
 
 .card-header1 {
-  background-color: #ff64b1; /* Rosa fuerte */
+  background-color: #732c02; /* Rosa fuerte */
   color: #ffffff;
   padding: 15px;
   font-size: 20px;
@@ -299,11 +299,11 @@ td span {
 .blockquote-footer {
   margin-top: 10px;
   font-size: 14px;
-  color: #ff69b4;
+  color: #f2b705;
 }
 
 .blockquote-footer cite {
-  color: #ff1493;
+  color: #f2b705;
 }
 
 /* Estilos generales para el carrusel */
@@ -313,8 +313,7 @@ td span {
   aspect-ratio: 1 / 1; /* Hacer el carrusel cuadrado */
   overflow: hidden; /* Recortar el exceso */
   border-radius: 5px; /* Bordes redondeados */
-  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2); /* Sombra rosa */
-
+  box-shadow: 0 10px 30px rgba(255, 230, 0, 0.527); /* Sombra rosa */
   view-timeline-name: --container;
   view-timeline-axis: block;
   animation-timeline: --container;
@@ -328,7 +327,8 @@ td span {
 }
 
 .carousel-item img {
-  object-fit: cover; /* Recortar la imagen sin distorsionar */
+  object-fit: cover;
+  /* Recortar la imagen sin distorsionar */
 }
 
 /*Estilos linea del tiempo*/
@@ -344,7 +344,7 @@ td span {
 }
 
 .card {
-  box-shadow: 0 10px 30px rgba(230, 0, 255, 0.358); /* Sombra rosa */
+  box-shadow: 0 10px 30px rgba(255, 251, 0, 0.358); /* Sombra rosa */
 }
 
 .card img {
@@ -359,7 +359,7 @@ td span {
   content: "";
   position: absolute;
   width: 3px;
-  background-color: #ff00fb;
+  background-color: #732c02;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -380,7 +380,7 @@ td span {
   width: 25px;
   height: 25px;
   right: -11px;
-  background-color: #86028d;
+  background-color: #732c02;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -469,7 +469,7 @@ td span {
   width: 100%;
   margin-top: 10%;
   padding: 20px;
-  background-color: #bc1ab4;
+  background-color: #f2b705;
   text-align: center;
   color: #fdf7e5;
   font-family: "Italiana", serif;
@@ -497,7 +497,7 @@ td span {
 .codigo__vestimenta {
   width: 100%;
   padding: 20px;
-  background-color: #ff45a8;
+  background-color: #732c02;
   text-align: center;
   color: #fdf7e5;
   font-family: "Italiana", serif;
@@ -515,7 +515,7 @@ td span {
     transform: translateX(200px);
   }
 
-  35% {
+  34% {
     opacity: 1;
     transform: translateX(0);
   }
@@ -536,7 +536,7 @@ td span {
 .confirmarBtn {
   border: none;
   padding: 10px 15px;
-  background: #ff45a8;
+  background: #f2b705;
   border-radius: 5px;
   font-family: "Italiana", serif;
   color: #fdf7e5;
